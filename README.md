@@ -26,6 +26,40 @@ If, instead, you'd like to include the latest version explicitly, you can add th
 <script src="https://emoji.fluent-cdn.com/1.0.0/fluentemoji.min.js" integrity="sha256-G+vk3FHls/+I4Y8UV9jyCptUB8a4dnIXNeebVWc+Oo8= sha384-oAYDjisHrSixQ6gOZWkdOy/hd68sjETUF/FU+u2eoYbxBumADffLAxjhU8eweqKs sha512-ebCuNnS6S45CxCyNltbcf71VhjwZqHqOPe+RJncGHITkjgm5yIYQkJ8Z4u/F/mc5WndKF1YPfjZ7JFSRpekKrg==" crossorigin="anonymous"></script>
 ```
 
+### API
+
+## `fluentemoji.parse( ... )`
+
+The `fluentemoji.parse()` is the main parsing utility, and takes a CSS selector. It will parse all text nodes within the provided element (including recursive child elements) and replace any emoji shortcodes with the appropriate emoji image.
+
+```js
+// Create example element
+var div = document.createElement('div');
+div.textContent = 'I ❤️ emoji!';
+document.body.appendChild(div);
+
+// Parse the div (will parse all elements on page)
+twemoji.parse('div');
+```
+
+In the example above, the output would be:
+
+```html
+<div>I <img draggable="false" class="emoji" alt="❤️" src="https://emoji.fluent-cdn.com/1.0.0/100x100/2764-fe0f.png" /> emoji!</div>
+```
+
+By default, if no selector is provided, the `fluentemoji.parse()` method will parse all elements on the page. This is not necessarily recommended, as it can be a performance hit on larger pages.
+
+You can target classnames, ids, and any other valid CSS selector. Here are some examples of valid selectors:
+
+```js
+twemoji.parse('div');
+twemoji.parse('.my-class');
+twemoji.parse('#my-id');
+twemoji.parse('div > p');
+twemoji.parse('div, p');
+```
+
 ## Styling Fluent Emoji
 
 Fluent Emoji are optimally styled using the following CSS class:

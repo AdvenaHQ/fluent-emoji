@@ -2,6 +2,14 @@
 <html>
 <head>
     <script src="../dist/fluentemoji.js"></script>
+    <style>
+        .emoji {
+            height: 1em;
+            width: 1em;
+            margin: 0 0.05em 0 0.1em;
+            vertical-align: -0.1em;
+        }
+    </style>
 </head>
 <body>
     <p id="individual-text-element">😊</p>
@@ -11,9 +19,15 @@
             <div>
                 <div id="nested-element">
                     <span>🔥 Hot stuff, coming through!</span>
+                    <span>I ❤️ emoji!</span>
                 </div>
             </div>
         </div>
+    </div>
+    <div>
+        <p>
+            <span>Soccer, or football? ⚽</span>
+        </p>
     </div>
     <div id="test-for-xss">
         &lt;script&gt;alert(1);console.log('😡');&lt;/script&gt;
@@ -24,5 +38,6 @@
     fluentemoji.parse("#individual-text-element-with-other-content");
     fluentemoji.parse("div");
     fluentemoji.parse("#test-for-xss");
+    fluentemoji.parse("div > p");
 </script>
 </html>
