@@ -1,4 +1,4 @@
-<image src='art/images/banner.gif' alt='Microsoft Teams Animted emojis' />
+<image src='assets/images/banner.gif' alt='Microsoft Teams Animted emojis' />
 
 # [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams) Fluent Animated emojis
 
