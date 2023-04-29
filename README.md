@@ -39,7 +39,7 @@ div.textContent = 'I ❤️ emoji!';
 document.body.appendChild(div);
 
 // Parse the div (will parse all elements on page)
-twemoji.parse('div');
+fluentemoji.parse('div');
 ```
 
 In the example above, the output would be:
@@ -53,11 +53,11 @@ By default, if no selector is provided, the `fluentemoji.parse()` method will pa
 You can target classnames, ids, and any other valid CSS selector. Here are some examples of valid selectors:
 
 ```js
-twemoji.parse('div');
-twemoji.parse('.my-class');
-twemoji.parse('#my-id');
-twemoji.parse('div > p');
-twemoji.parse('div, p');
+fluentemoji.parse('div');
+fluentemoji.parse('.my-class');
+fluentemoji.parse('#my-id');
+fluentemoji.parse('div > p');
+fluentemoji.parse('div, p');
 ```
 
 ## Styling Fluent Emoji
@@ -81,7 +81,7 @@ Fluent Emoji offers a drop-in replacement for Twemoji. If you are currently usin
 <script src="https://emoji.fluent-cdn.com/latest/fluentemoji.min.js" crossorigin="anonymous"></script>
 ```
 
-This works because Fluent Emoji ships with a Twemoji compatibility layer that allows it to be used as a drop-in replacement for Twemoji.
+This works because Fluent Emoji ships with a Twemoji compatibility layer that allows it to be used as a drop-in replacement for Twemoji. This means that you can use the same API as Twemoji, and Fluent Emoji will handle the rest.
 
 ## Contact
 
