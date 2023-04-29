@@ -1,6 +1,6 @@
 <image src='assets/images/banner.gif' alt='Microsoft Teams Animted emojis' />
 
-Fluent Emoji (Browser)
+# Fluent Emoji (Browser)
 
 A simple library that provides standard Unicode emoji support across all platforms for Fluent Emoji. Fluent Emoji are a [collection of familiar, friendly, and modern emoji from Microsoft](https://github.com/microsoft/fluentui-emoji).
 
