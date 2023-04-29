@@ -1,10 +1,10 @@
 <image src='assets/images/banner.gif' alt='Microsoft Teams Animted emojis' />
 
-# [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-teams) Fluent Animated emojis
+# [Microsoft](https://www.microsoft.com/en-us/microsoft-teams) Fluent emojis
 
 A simple library that provides standard Unicode emoji support across all platforms for Fluent Emoji. Fluent Emoji are a [collection of familiar, friendly, and modern emoji from Microsoft](https://github.com/microsoft/fluentui-emoji).
 
-This library is also offered as a drop-in replacement for [twemoji](https://github.com/twitter/twemoji) which, due to recent changes at Twitter and the [deprecation of MaxCDN](https://github.com/twitter/twemoji#cdn-support), is no longer a viable option for many developers.
+**This library is also offered as a drop-in replacement for [twemoji](https://github.com/twitter/twemoji)** which, due to recent changes at Twitter and the [deprecation of MaxCDN](https://github.com/twitter/twemoji#cdn-support), is no longer a viable option for many developers.
 
 ## Usage
 
@@ -15,7 +15,7 @@ We recommend using [Advena's](https://github.com/AdvenaHQ) Fluent Emoji CDN for 
 Use the following script tag in the `<head>` tag of your HTML document(s):
 
 ```html
-<script src="https://emoji.fluent-cdn.com/latest/fluentemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://emoji.fluent-cdn.com/latest/dist/fluentemoji.min.js" crossorigin="anonymous"></script>
 ```
 
 This guarentees that you will always be using the latest version of the library.
@@ -23,7 +23,7 @@ This guarentees that you will always be using the latest version of the library.
 If, instead, you'd like to include the latest version explicitly, you can add the following script tag instead:
 
 ```html
-<script src="https://emoji.fluent-cdn.com/1.0.0/fluentemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://emoji.fluent-cdn.com/1.0.0/dist/fluentemoji.min.js" crossorigin="anonymous"></script>
 ```
 
 ## Contact
