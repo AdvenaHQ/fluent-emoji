@@ -26,6 +26,19 @@ If, instead, you'd like to include the latest version explicitly, you can add th
 <script src="https://emoji.fluent-cdn.com/1.0.0/fluentemoji.min.js" integrity="sha256-G+vk3FHls/+I4Y8UV9jyCptUB8a4dnIXNeebVWc+Oo8= sha384-oAYDjisHrSixQ6gOZWkdOy/hd68sjETUF/FU+u2eoYbxBumADffLAxjhU8eweqKs sha512-ebCuNnS6S45CxCyNltbcf71VhjwZqHqOPe+RJncGHITkjgm5yIYQkJ8Z4u/F/mc5WndKF1YPfjZ7JFSRpekKrg==" crossorigin="anonymous"></script>
 ```
 
+## Styling Fluent Emoji
+
+Fluent Emoji are optimally styled using the following CSS class:
+
+```css
+.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 0.05em 0 0.1em;
+    vertical-align: -0.1em;
+}
+```
+
 ## Contact
 
 Please feel free to [open a GitHub issue](https://github.com/AdvenaHQ/fluent-emoji/issues/new) with questions or requests.
