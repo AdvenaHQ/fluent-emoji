@@ -15,7 +15,7 @@ We recommend using [Advena's](https://github.com/AdvenaHQ) Fluent Emoji CDN for 
 Use the following script tag in the `<head>` tag of your HTML document(s):
 
 ```html
-<script src="https://emoji.fluent-cdn.com/latest/dist/fluentemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://emoji.fluent-cdn.com/latest/fluentemoji.min.js" crossorigin="anonymous"></script>
 ```
 
 This guarentees that you will always be using the latest version of the library.
@@ -23,7 +23,7 @@ This guarentees that you will always be using the latest version of the library.
 If, instead, you'd like to include the latest version explicitly, you can add the following script tag instead:
 
 ```html
-<script src="https://emoji.fluent-cdn.com/1.0.0/dist/fluentemoji.min.js" crossorigin="anonymous"></script>
+<script src="https://emoji.fluent-cdn.com/1.0.0/fluentemoji.min.js" integrity="sha256-G+vk3FHls/+I4Y8UV9jyCptUB8a4dnIXNeebVWc+Oo8= sha384-oAYDjisHrSixQ6gOZWkdOy/hd68sjETUF/FU+u2eoYbxBumADffLAxjhU8eweqKs sha512-ebCuNnS6S45CxCyNltbcf71VhjwZqHqOPe+RJncGHITkjgm5yIYQkJ8Z4u/F/mc5WndKF1YPfjZ7JFSRpekKrg==" crossorigin="anonymous"></script>
 ```
 
 ## Contact
