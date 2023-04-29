@@ -1,6 +1,6 @@
 <image src='assets/images/banner.gif' alt='Microsoft Teams Animted emojis' />
 
-# [Microsoft](https://www.microsoft.com/en-us/microsoft-teams) Fluent emojis
+Fluent Emoji (Browser)
 
 A simple library that provides standard Unicode emoji support across all platforms for Fluent Emoji. Fluent Emoji are a [collection of familiar, friendly, and modern emoji from Microsoft](https://github.com/microsoft/fluentui-emoji).
 
@@ -38,6 +38,16 @@ Fluent Emoji are optimally styled using the following CSS class:
     vertical-align: -0.1em;
 }
 ```
+
+## Replacing [Twemoji](https://github.com/twitter/twemoji)
+
+Fluent Emoji offers a drop-in replacement for Twemoji. If you are currently using Twemoji, you can replace it with Fluent Emoji by simply replacing the Twemoji CDN URL with the Fluent Emoji CDN URL:
+
+```html
+<script src="https://emoji.fluent-cdn.com/latest/fluentemoji.min.js" crossorigin="anonymous"></script>
+```
+
+This works because Fluent Emoji ships with a Twemoji compatibility layer that allows it to be used as a drop-in replacement for Twemoji.
 
 ## Contact
 
